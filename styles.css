@@ -1,9 +1,61 @@
+
 .video-container {
+    position: relative;
     display: block;
-    margin: 0 auto; /* Centre la vidéo horizontalement */
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh; /* Hauteur de 100% de la hauteur de l'écran */
 }
 
 video {
-    max-width: 100%; /* La vidéo ne dépassera pas la largeur de l'écran */
-    height: auto; /* Permet à la hauteur de s'ajuster automatiquement en maintenant les proportions originales */
+    width: 100%;
+    height: auto; /* Hauteur de 100% de la hauteur de l'écran */
+}
+
+.navbar {
+    background-color: transparent; /* Rend la barre de navigation transparente */
+    width: 100%;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+/* Style pour l'animation du texte */
+.animate-text {
+    opacity: 0; /* Le texte est initialement invisible */
+    animation: appearText 4s linear forwards;
+    margin: 0; /* Réinitialise les marges */
+}
+
+.animate-text h1{
+    margin: 0;
+    font-size: 8em;
+}
+.animate-text p {
+    margin: 0; /* Réinitialise les marges pour les éléments h1 et p */
+    font-size: 2em;
+}
+
+/* Nouveau style pour le centrage du texte */
+.centered-text .animate-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes appearText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
