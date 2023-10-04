@@ -1,0 +1,9 @@
+.video-container {
+    display: block;
+    margin: 0 auto; /* Centre la vidéo horizontalement */
+}
+
+video {
+    max-width: 100%; /* La vidéo ne dépassera pas la largeur de l'écran */
+    height: auto; /* Permet à la hauteur de s'ajuster automatiquement en maintenant les proportions originales */
+}
