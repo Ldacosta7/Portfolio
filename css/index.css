@@ -71,7 +71,8 @@ footer {
     position: fixed; /* Positionnement fixe par rapport à la fenêtre */
     bottom: 0; /* En bas de la fenêtre */
     right: 0; /* À droite de la fenêtre */
-    margin: 50px; /* Marge pour l'espacement */
+    margin-right: 100px; /* Marge pour l'espacement */
+    margin-bottom: 50px;
   }
   
   .arrow img {
