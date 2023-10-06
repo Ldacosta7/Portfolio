@@ -1,6 +1,23 @@
 body{
     height: 100vh;
-    background: rgb(2,0,36);
-    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(21,21,24,1) 46%, rgba(128,128,147,1) 100%, rgba(0,212,255,1) 100%);
+    background: rgb(18,18,18);
+    background: radial-gradient(circle, rgba(18,18,18,1) 43%, rgba(71,71,75,1) 95%);
     color: white;
 }
+
+.container {
+    margin: 60px;
+    text-align: center;
+  }
+  
+  .stack {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
+    gap: 20px; /* Espacement entre les éléments */
+    justify-items: center; /* Centre horizontalement */
+    margin-top: 60px;
+  }
+  
+  .stack img {
+    max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
+  }
