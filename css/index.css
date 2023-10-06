@@ -66,3 +66,14 @@ video {
         transform: translateY(0);
     }
 }
+
+footer {
+    position: fixed; /* Positionnement fixe par rapport à la fenêtre */
+    bottom: 0; /* En bas de la fenêtre */
+    right: 0; /* À droite de la fenêtre */
+    margin: 50px; /* Marge pour l'espacement */
+  }
+  
+  .arrow img {
+    display: block; /* Pour que l'image soit un bloc plutôt qu'une ligne en ligne */
+  }

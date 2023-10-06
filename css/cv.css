@@ -21,3 +21,9 @@ body{
   .stack img {
     max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
   }
+
+  .arrow{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
