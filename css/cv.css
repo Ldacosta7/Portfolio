@@ -1,8 +1,9 @@
 body{
-    height: 100vh;
+    
     background: rgb(18,18,18);
     background: radial-gradient(circle, rgba(18,18,18,1) 43%, rgba(71,71,75,1) 95%);
     color: white;
+    
 }
 
 .container {
@@ -26,4 +27,5 @@ body{
     margin: 100px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
   }
