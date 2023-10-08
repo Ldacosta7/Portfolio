@@ -22,14 +22,13 @@
                 <a class="nav-link active" aria-current="page" href="a_propos.html">Qui suis-je</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="cv.html">Mon CV</a>
+                <a class="nav-link" href="cv.html">Mes compétences</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="realisation.html">Mes Réalisations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact
-                </a>
+                <a class="nav-link" href="contact.html">Me Contacter</a>
               </li>
             </ul>
           </div>
@@ -52,7 +51,7 @@
             <p>PHP</p>
           </div>
           <div class="stack-item">
-            <img src="images/symfony.png" alt="php" height="100" width="100">
+            <img src="images/symfony.svg" alt="symfony" height="100" width="100">
             <p>Symfony</p>
           </div>
           <div class="stack-item">
@@ -64,15 +63,6 @@
             <p>Bootstrap</p>
           </div>
           <div class="stack-item">
-            <img src="images/java.png" alt="java" height="100" width="100">
-            <p>Java</p>
-          </div>
-          <div class="stack-item">
-            <img src="images/python.png" alt="java" height="100" width="100">
-            <p>Python</p>
-          </div>
-          
-          <div class="stack-item">
             <img src="images/git.png" alt="git" height="100" width="100">
             <p>Git</p>
           </div>
@@ -80,9 +70,56 @@
             <img src="images/vscode.png" alt="vscode" height="100" width="100">
             <p>VSCode</p>
           </div>
+          <div class="stack-item">
+            <img src="images/mySQL.png" alt="mySQL" height="100" width="100">
+            <p>MySQL</p>
+          </div>
+          <div class="stack-item">
+            <img src="images/wordpress.png" alt="wordpress" height="100" width="100">
+            <p>Wordpress</p>
+          </div>
+          <div class="stack-item">
+            <img src="images/java.png" alt="java" height="100" width="100">
+            <p>Java</p>
+          </div>
+          <div class="stack-item">
+            <img src="images/python.png" alt="python" height="100" width="100">
+            <p>Python</p>
+          </div>
+          <div class="stack-item">
+            <img src="images/xmind.png" alt="xmind" height="100" width="100">
+            <p>Xmind</p>
+          </div>
+          <div class="stack-item">
+            <img src="images/trello.png" alt="trello" height="100" width="100">
+            <p>Trello</p>
+          </div>
+          <div class="stack-item">
+            <img src="images/adobeXD.png" alt="adobeXD" height="100" width="100">
+            <p>Adobe XD</p>
+          </div>
+          <div class="stack-item">
+            <img src="images/gantt.png" alt="gantt" height="100" width="100">
+            <p>Gantt</p>
+          </div>
         </div>
       </div>
+
+      <h1>Mon CV</h1>
+    
+    <!-- Bouton pour afficher le CV -->
+    <button id="afficher-cv">Afficher le CV</button>
+    
+    <!-- Bouton pour télécharger le CV -->
+    <a id="telecharger-cv" href="images/CV__DA_COSTA_Lucas.jpeg" download>Télécharger le CV</a>
+    
+    <!-- Contenu du CV (initiallement caché) -->
+    <div id="cv-content" style="display: none;">
+        <img src="images/CV_DA_COSTA_Lucas.jpeg" alt="cv">
+        <!-- Vous pouvez ajouter ici le contenu de votre CV au format HTML ou texte -->
+    </div>
       
+    <script src="js/cv.js"></script>
 
         <footer>
           <div class="arrow">
