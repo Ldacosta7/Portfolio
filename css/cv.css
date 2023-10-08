@@ -6,12 +6,12 @@ body{
     
 }
 
-.container {
+.container{
     margin: 60px;
     text-align: center;
   }
   
-  .stack {
+  .stack{
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
     gap: 20px; /* Espacement entre les éléments */
@@ -19,9 +19,17 @@ body{
     margin-top: 60px;
   }
   
-  .stack img {
+  .stack img{
     max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
   }
+
+ .cv-section{
+  text-align: center;
+ }
+
+ .cv {
+  margin-top: 60px;
+ }
 
   .arrow{
     margin: 100px;
