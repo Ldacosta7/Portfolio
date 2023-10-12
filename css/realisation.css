@@ -10,3 +10,14 @@ body{
     display: flex;
     justify-content: space-between;
   }
+
+.titre{
+    margin : 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    
+    padding: 30px;
+}
