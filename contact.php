@@ -20,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="a_propos.html">Qui suis-je</a>
+                <a class="nav-link" aria-current="page" href="a_propos.html">Qui suis-je</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="cv.html">Mes Compétences</a>
@@ -46,30 +46,30 @@
         <div class="row input-container">
             <div class="col-xs-12">
               <div class="styled-input wide">
-                <input type="text" required />
+                <input type="text" name="nom" required />
                 <label>Nom</label> 
               </div>
             </div>
             <div class="col-md-6 col-sm-12">
               <div class="styled-input">
-                <input type="text" required />
+                <input type="text" name="mail" required />
                 <label>Mail</label> 
               </div>
             </div>
             <div class="col-md-6 col-sm-12">
               <div class="styled-input" style="float:right;">
-                <input type="text" required />
+                <input type="text" name="tel" required />
                 <label>Numéro de Téléphone</label> 
               </div>
             </div>
             <div class="col-xs-12">
               <div class="styled-input wide">
-                <textarea required></textarea>
+                <textarea name="msg" required></textarea>
                 <label>Message</label>
               </div>
             </div>
             <div class="col-xs-12">
-              <div class="btn-lrg submit-btn">Envoyer</div>
+              <input type="submit" class="btn-lrg submit-btn" name="envoyer" value="Envoyer">
             </div>
         </div>
       </div>
@@ -82,3 +82,12 @@
       </footer>
 </body>
 </html>
+
+<?php
+if (isset($_POST['submit']))
+{
+  throw new Exception('toto');
+  trigger_error('toto');
+}
+ 
+?>
